@@ -1,0 +1,16 @@
+# Small Python program: Age to 100 calculator
+
+from datetime import datetime
+
+# Get current year
+current_year = datetime.now().year
+
+# Ask user for input
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+# Calculate the year they will turn 100
+year_turn_100 = current_year + (100 - age)
+
+# Print the result
+print(f"Hello {name}, you will turn 100 years old in the year {year_turn_100}.")
